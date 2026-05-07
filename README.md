@@ -1,15 +1,5 @@
 # MLOps Assignment 1: Heart Disease Prediction
 
-**Course**: MLOps (S2-25_AMLCSZG523)  
-**Team**: Group 5
-
-| ID | Name |
-|----|------|
-| 2025cs05043 | Tushar Chouhan |
-| 2025cs05010 | Kelli L Prasanna Kumar |
-| 2025cs05045 | Jyoti Chugh |
-| 2025cs05047 | Madhan M |
-
 ## Overview
 
 End-to-end ML pipeline for predicting heart disease risk using the UCI Heart Disease dataset. The project covers EDA, model development, experiment tracking (MLflow), CI/CD (GitHub Actions), containerization (Docker), Kubernetes deployment, and monitoring (Prometheus + Grafana).
