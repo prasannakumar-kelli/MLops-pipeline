@@ -25,3 +25,4 @@ mlruns/
 # OS
 .DS_Store
 VIDEO_SCRIPT.md
+generate_report.py
