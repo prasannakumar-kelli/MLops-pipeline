@@ -6,7 +6,6 @@ Task 5: CI/CD Pipeline & Automated Testing
 import os
 import sys
 import pickle
-import json
 
 import numpy as np
 import pandas as pd
