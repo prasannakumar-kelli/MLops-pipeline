@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+
+# Model artifacts (regenerated from notebook)
+model_pipeline.pkl
+model_metadata.json
+heart_disease_cleaned.csv
+
+# MLflow
+mlruns/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+VIDEO_SCRIPT.md

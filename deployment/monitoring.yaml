@@ -1,0 +1,24 @@
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: heart-disease-api-monitor
+  labels:
+    app: heart-disease-api
+spec:
+  selector:
+    matchLabels:
+      app: heart-disease-api
+  endpoints:
+    - port: http
+      path: /metrics
+      interval: 15s
+---
+# Prometheus scrape config (standalone)
+# Add to prometheus.yml if not using ServiceMonitor:
+#
+# scrape_configs:
+#   - job_name: 'heart-disease-api'
+#     scrape_interval: 15s
+#     static_configs:
+#       - targets: ['heart-disease-api-service:80']
+#     metrics_path: /metrics
